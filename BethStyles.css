@@ -1,12 +1,19 @@
 body {
-    background-color: darkslateblue;
+    background-color: thistle;
 }
 
 h1 {
-    color: seagreen;
-    font-family: "Bell MT";
+    color: blanchedalmond;
+    font-family: "Arial Narrow";
+    background-color: darkslateblue;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    letter-spacing: .1em;
 }
 
 p {
-    font-family: "Bell MT";
+    font-family: "Arial Narrow";
+    color: teal;
+    text-align: center;
 }
