@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Country Information</title>
+    <link href="CountryStyles.css" rel="stylesheet" />
+</head>
+<body>
+
+<section id="leftScreen">
+    <form>
+        <h3>Select a country from the list</h3>
+        <select id="SelectCountry">
+            <option value="0">Select A Country</option>
+        </select>
+    </form>
+</section>
+
+<section id="rightScreen">
+    <h3>Country Information:</h3>
+    <h1 id="countryName">&nbsp;</h1>
+
+    <section id="flagImage">
+    <!--<img src="flags/Canada.png" id="countryFlag">-->
+    </section>
+
+    <h3>Population</h3>
+    <input type="text" name="population" id="population"/>
+
+    <p>
+    <h3>Area in:</h3>
+    <select name="areaSelect" id="areaSelect">
+        <option value="0">Square Miles</option>
+        <option value="1">Square Kilometres</option>
+    </select>
+    <br />
+   <input type="text" name="area" id="area"/></p>
+    <br />
+
+    <fieldset>
+        <h3>Population Density</h3>
+        <input type="radio" name="perArea" value="perArea" checked> Per Square Mile<br/>
+        <input type="radio" name="perArea" value="perArea"> Per Square Kilometre<br/>
+        <input type="text" name="density" id="density"/></p>
+    </fieldset>
+
+    <h3>Percentage of World Population</h3>
+    <input type="text" name="popPercent" id="popPercent"/></p>
+
+    <button name="wikiLookup" id="wikiLookup">Go To Country's Wikipedia Page</button>
+
+
+</section>
+
+
+<script src="scripts.js"></script>
+</body>
+</html>

@@ -1,19 +1,225 @@
+@font-face {font-family: RaggedWays;
+    src: url('Raggedways-Regular.otf') format('OpenType');}
+
 body {
-    background-color: thistle;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: url(pictures/sand.JPG) center center / cover no-repeat fixed;
 }
 
-h1 {
-    color: blanchedalmond;
-    font-family: "Arial Narrow";
-    background-color: darkslateblue;
+header {
+    background-color: darkslategray;
+}
+
+div.logo {
+    position: relative;
+    text-align: center;
+}
+
+div.textforpic {
+    position: absolute;
+    bottom: 1.2em;
+    left: 2em;
+}
+
+div.textforpic h1 {
+    font-size: 2em;
+    letter-spacing:.2em;
+    font-family: RaggedWays, Forte, "DejaVu Sans", sans-serif;
+    color: wheat;
+    text-shadow: darkslateblue -2px -2px 2px;
+
+}
+
+nav.TopNav a {
+    color: mistyrose;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+nav ul li {
+     width: 15%;
+     text-decoration: none;
+     font-family: Tahoma, "DejaVu Sans", sans-serif;
+     text-align: center;
+     letter-spacing: .1em;
+     padding-top: .5em;
+     padding-bottom: .5em;
+ }
+
+nav ul li:hover {
+   background-color: orangered;
+}
+
+header img {
+    max-width: 100%;
+}
+
+h2 {
+    color: darkblue;
+    font-family: "DejaVu Sans", Tahoma, sans-serif;
+    margin-bottom: 1%;
+}
+
+section.PageContent {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1080px;
+   justify-content: space-between;
+
+    padding: 1%;
+
+}
+
+section.BonusContent {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
+}
+
+section.BonusContent h2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+section.PageContent p {
+    font-family: "DejaVu Sans", Tahoma, sans-serif;
+    color: wheat;
+
+}
+
+section.PageContent img#me {
+    margin-right: 1%;
+}
+
+
+
+section.PageContent article#AboutMe {
+    flex: 1 1 200px;
+    background-color: rgba(16,24,56,.5);
+    margin-left: 1%;
+    padding: 1%;
+
+}
+
+section.PageContent article#resume h2 {
+    color: darkblue;
+
+}
+
+section.PageContent article#resume dl{
+    padding: 1%;
+}
+
+section.PageContent article#resume dl dt{
+    color: orange;
+}
+
+section.PageContent article#resume dl dd{
+    padding-left: 1.5%;
+}
+
+section.PageContent article#goalsShort {
+    flex: 1 1 40%;
+    background-color: rgba(16,24,56,.5);
+    margin-right: 1%
+
+
+}
+section.PageContent article#goalsLong {
+    flex: 1 1 40%;
+    background-color: rgba(16,24,56,.5);
+    margin-left: 1%;
+
+}
+
+section.PageContent dl {
+    background-color: rgba(16,24,56,.5);
+    padding-bottom: 1%;
+}
+
+section.PageContent dl#work {
+    background-color: rgba(16,24,56,.5);
+    padding: 1em;
+}
+
+section.PageContent ul#skills {
+    background-color: rgba(16,24,56,.5);
+    padding: 1em;
+}
+
+section.PageContent ul li {
+   align-items: center;
+}
+
+section.PageContent ul li {
+    padding: 1em;
+    font-family: "DejaVu Sans", Tahoma, sans-serif;
+    color: wheat;
+}
+
+section.PageContent dl dt {
+    font-family: "DejaVu Sans", Tahoma, sans-serif;
+    color: wheat;
     padding-top: 1em;
-    padding-bottom: 1em;
-    text-align: center;
-    letter-spacing: .1em;
+    font-weight: bold;
 }
 
-p {
-    font-family: "Arial Narrow";
-    color: teal;
+section.PageContent dl#resumeDownload dd {
+    padding: .5%;
+}
+section.PageContent dl dd {
+    font-family: "DejaVu Sans", Tahoma, sans-serif;
+    color: wheat;
+    padding-top: 1em;
+}
+
+
+
+section.PageContent a {
+     font-family: "DejaVu Sans", Tahoma, sans-serif;
+     color: orange;
+     text-decoration: none;
+ }
+
+section.PageContent a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+article h2 {
+    font-size: large;
+    font-family: "DejaVu Sans", Tahoma, sans-serif;
+    padding-top: 2%;
+    padding-bottom:2%;
+    color: orange;
+    letter-spacing: .3em;
+    font-style: italic;
     text-align: center;
+}
+
+article p {
+    font-family: "DejaVu Sans", Tahoma, sans-serif;
+    color: wheat;
+   padding-top: 1em;
+}
+
+form {
+    margin: 1%;
+    background-color:rgba(16,24,56,.5);
+}
+
+button {
+    padding: 5px;
+    background-color: darkslategray;
+    color: mistyrose;
+    font-size: medium;
+    font-family: "DejaVu Sans", Tahoma, sans-serif;
 }

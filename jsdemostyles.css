@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 500px;
+    justify-content: center;
+    background-color: plum;
+}
+fieldset {
+    padding: 1em;
+    margin: .5em;
+    flex: 1 1 500px;
+}
+
+legend {
+    font-family: Tahoma, "DejaVu Sans", sans-serif;
+    color: darkslateblue;
+}
+
+p {
+    font-family: Tahoma, "DejaVu Sans", sans-serif;
+    color: darkslategray;
+
+}
+
+button#check {
+    display: block;
+    background-color: darkslategrey;
+    color: azure;
+    width: 10em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}

@@ -1,0 +1,159 @@
+﻿@charset "utf-8";
+@font-face {font-family: Champagne;
+src: url('cac_champagne.woff') format('woff'),
+     url('cac_champagne.ttf') format('truetype');
+}
+
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Beth MacIsaac
+   Date:  2017-10-04 
+   
+   Filename: lake_styles.css
+
+*/
+nav.topnav a 	{color: white;
+				font-family: Helvetica, sans-sarif;
+				background-color: rgb(77,32,64);
+				color: white;
+				padding-top: .2em;
+				padding-bottom: .2em;
+				text-decoration: none;}
+	
+nav.topnav a:hover {color: rgb(253,146,74);} 
+	
+body {background-color: rgb(254,253,218);}
+
+body section#leftcol p:first-of-type	{font-family: Helvetica, sans-sarif;
+										color: rgb(77,32,64);
+										font-size: large;}
+										
+body section#leftcol p 		{font-family: Helvetica, sans-sarif;
+							color: rgb(77,32,64);}
+							
+body section#leftcol h1		{font-size: 3em;
+							font-family: Champagne, sarif;
+							color: rgb(77,32,64);}
+					
+body section#leftcol aside#notes h1 {font-family: Georgia, sarif;
+									color: rgb(253,146,74);
+									font-size: 1.5em;
+									padding-left: .75em;}
+							
+body section#leftcol aside#notes 	{font-family: Helvetica, sans-sarif;
+									background-color: rgb(171,44,16); 
+									color: rgb(254,253,218);
+									padding-left: 1em;
+									padding-right: 1em;}
+							
+body section#leftcol aside#notes ul {list-style-image: url(hawk.png);
+									font-family: Helvetica, sans-sarif;
+									color: rgb(254,253,218);
+									font-size: small;}
+
+body section#leftcol aside#events h1 {font-family: Georgia, sarif;
+									color: rgb(253,146,74);
+									font-size: 1.5em;}	
+
+body section#leftcol aside#events h2 	{font-family: Georgia, sarif;
+										font-size: 1em;
+										color: rgb(199,118,174);}	
+
+body section#leftcol aside#events p {color: rgb(254,253,218);
+									font-style: italic;
+									font-size: small;}								
+								
+body section#leftcol aside#events  {font-family: Helvetica, sans-sarif;
+									background-color: rgb(108,28,11); 
+									color: rgb(254,253,218);
+									padding-left: 1em;
+									padding-right: 1em;
+									float: left;}
+							
+body section#leftcol aside#events ul {list-style-type: none;
+									font-family: Helvetica, sans-sarif;
+									color: rgb(254,253,218);}									
+									
+									
+									
+									
+									
+									
+body section#leftcol aside#notes a {font-family: Helvetica, sans-sarif;
+									color: rgb(253,146,74);
+									text-decoration: none}
+							
+body section#leftcol aside#notes a:hover {color: rgb(77,32,64);}
+
+						
+
+body section#rightcol 	{background-color: rgb(171,44,16);
+						font-family: Helvetica, sans-sarif;
+						color: white;
+						padding-left: 1em;
+						float: right;}
+
+body section#rightcol h2 	{letter-spacing: .1em;
+							font-size: 2em;}					
+						
+body section#rightcol ul 	{list-style-type: none;
+							letter-spacing: .05em;
+							color: rgb(254,253,218)}
+						
+					
+				
+					
+body section#rightcol a	{font-family: Helvetica, sans-sarif;
+						color: white;
+						text-decoration: none;
+						font-size: .9em;}
+
+body section#rightcol a:hover 	{color: rgb(77,32,64);}	
+
+
+body section#rightcol h2 	{background-color: rgb(171,44,16);
+							font-family: Champagne, sarif;
+							color: rgb(254,253,218);
+							padding-left. .75em;}
+
+
+body section#rightcol blockquote	{quotes: "\201C" "\201D";
+									font-family: Helvetica, sans-sarif;
+									color: white;
+									text-decoration: none;
+									font-size: .9em;
+									font-style: italic;
+									background-color: rgb(77,32,64);
+									padding: .5em;
+									margin-left: 4%;
+									margin-right: 10%;
+									float: center;}
+						
+body section#rightcol blockquote::before 	{content: open-quote;
+											font-size: 2em;}	
+												
+body section#rightcol blockquote::after 	{content: close-quote;												
+											font-size: 2em;}
+
+
+
+			
+footer {color: rgb(254,253,218);
+		text-align: center;
+		font-family: Helvetica, sans-sarif;
+		font-size: .75em;
+		background-color: rgb(77,32,64);
+		padding-top: .75em;
+		padding-bottom: .75em;
+		padding-left: 1em;
+		padding-right: 1em;
+		text-decoration: none;
+		font-variant: small-caps;}
+
+
+	

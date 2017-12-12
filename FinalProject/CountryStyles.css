@@ -1,0 +1,28 @@
+body {
+    max-width: 960px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: oldlace;
+}
+
+h1#countryName {
+    color: midnightblue;
+    font-family: "Arial Black", sans-sarif;
+}
+
+h3 {
+    font-family: Arial, sans-sarif;
+}
+
+p {
+    font-family: Arial, sans-sarif;
+}
+section#leftScreen {
+     flex: 1 1 200px;
+
+ }
+
+section#rightScreen {
+    flex: 1 1 350px;
+
+}
